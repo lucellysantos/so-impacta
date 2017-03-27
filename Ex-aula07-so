@@ -22,14 +22,6 @@ Não-Preemptivo:
 depende somente do processo;
 processador não pode ser tomado;
 
-
-
-
-
-
-
-
-
 9- First-Come,First-Served (FCFS) : os processos são executados na ordem em que chegam ao escalonador. Pode apresentar diferentes tempos médios de espera de acordo com a ordem de chegada dos processos.
 
 -Shortest JobFirst (SJF):
