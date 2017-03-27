@@ -1,0 +1,45 @@
+# resposta-dos-exercicios
+
+1-      O sistema operacional é o programa mais importante, é a parte que fica entre o hardware e os programas e aplicativos, é o primeiro a ser iniciado e sua execução é terminada quando o computador é desligado, além de o S.O. carregar os Programas e aplicações, como o Microsoft Word.
+
+2-      Por que ele permite o compartilhamento de recursos do hardware por diversas aplicações, e também gerencia os recursos do sistema.
+
+3-      São chamadas de Chamadas de Sistema (System Calls) , dois exemplos de chamadas de sistemas são “access()” e “listen()”.
+
+4-      São programas em execução que utilizam recursos como memória , tempo de execução da CPU, para realizar suas tarefas.
+
+5-	Não, pois para existir processos executados simultaneamente, deve existir dois ou mais núcleos de processamento. Portanto, com um único núcleo, deve ocorrer o compartilhamento de tempo de uso do processador entre vários processos. Em processadores de um só núcleo, as funções de multitarefa podem ultrapassar a capacidade da CPU, o que resulta em queda no desempenho enquanto as operações aguardam para serem processadas.
+
+6- O sistema operacional salva todo o estado do processo que está em execução, em uma estrutura chamada PCB (Process Control Block), e carrega o estado do processo que entrará em execução.
+
+7-  Thread: é a execução de instruções criadas pelo programa,e é executada em um único local, diferente de um processo que possui um espaço reservado na memória. 
+Processo:é a execução do programa, sequências de instruções; .
+
+8-  Preemptivo:
+não depende somente do processo;
+S.O. pode tomar o processador mesmo que ainda tenha processos a executar;
+Não-Preemptivo:
+depende somente do processo;
+processador não pode ser tomado;
+
+
+
+
+
+
+
+
+
+9- First-Come,First-Served (FCFS) : os processos são executados na ordem em que chegam ao escalonador. Pode apresentar diferentes tempos médios de espera de acordo com a ordem de chegada dos processos.
+
+-Shortest JobFirst (SJF):
+ Versão não-preemptiva: uma vez que o processo recebe tempo de CPU, não pode ser interrompido até que utilize o tempo de CPU alocado. 
+
+Versão preemptiva: se um novo processo chega e possui um tempo de CPU menor que o tempo restante do processo em execucão, este será interrompido. Esta forma é conhecida como Shortest-Remaining-TimeFirst (SRTF). 
+
+10-   Cooperação: threads trabalham em cooperação para atingir um objetivo. 
+Ex:
+Semáforo Mecanismos que garantem que somente N processos podem acessar um   certo recurso em um dado momento. 
+        Competição: threads concorrentes disputam pelo uso exclusivo de recursos. 
+Ex:
+Combinação de transferência de dados com exclusão mútua e sincronização. Um processo gera as mensagens (produtor), colocando-as em uma fila de mensagens. O outro processo (consumidor) retira as mensagens da fila. Caso a fila fique totalmente cheia, o processo produtor espera até que seja liberado espaço na fila. Caso a fila fique vazia, o processo consumidor espera até que um novo elemento seja inserido na fila.
